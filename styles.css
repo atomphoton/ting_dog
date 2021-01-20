@@ -1,0 +1,118 @@
+#title {
+  background-color: #ff4c68;
+}
+
+.body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  margin: 1.5%;
+  line-height: 1.5;
+}
+
+.row {
+  padding: 5%;
+}
+
+.download-btn {
+  margin: 5% 3%;
+}
+
+.phone-img {
+  width: 30%;
+  transform: rotate(20deg);
+  position: absolute;
+}
+
+.icons {
+  size: 50px;
+  color: #ef8172;
+}
+
+.icons:hover {
+  color: #ff4c68;
+}
+
+.feat {
+  text-align: center;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 2% 4%;
+  color: #fff;
+}
+
+.dog-img {
+  width: 10%;
+  border-radius: 100%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.press-img {
+  width: 10%;
+}
+
+#slider {
+  padding: 5%;
+}
+
+.carousel-item {
+  padding: 0 4%;
+}
+
+.price {
+  text-align: center;
+  padding-bottom: 5%;
+  margin: 20px;
+}
+
+#pricing {
+  color: #ef8172;
+  text-align: center;
+  margin-top: 5%;
+}
+
+#features {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+#cta {
+  margin-top: 0;
+  padding-top: 5%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+#footer {
+  text-align: center;
+  margin-top: 3%;
+}
+
+@media (max-width:1028px) {
+  .phone-img {
+    position: static;
+    width: 25%;
+    transform: rotate(0);
+  }
+
+  body {
+    text-align: center;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
